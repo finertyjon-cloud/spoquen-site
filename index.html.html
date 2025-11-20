@@ -27,31 +27,12 @@
       width: 100%;
     }
 
-    h1 {
-      font-size: 32px;
-      margin: 0 0 8px 0;
-    }
-
-    h2 {
-      font-size: 18px;
-      font-weight: 400;
-      margin: 0 0 24px 0;
-      color: #b0b0b0;
-    }
-
-    p {
-      font-size: 16px;
-      line-height: 1.5;
-      margin: 0 0 20px 0;
-      color: #dcdcdc;
-    }
-
     .pill {
       display: inline-flex;
       align-items: center;
       padding: 6px 12px;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.04);
+      background: rgba(255, 255, 255, 0.05);
       font-size: 13px;
       margin-bottom: 16px;
     }
@@ -64,87 +45,6 @@
       margin-right: 6px;
     }
 
-    label {
-      display: block;
-      font-size: 13px;
-      margin-bottom: 6px;
-      color: #bbbbbb;
-    }
-
-    input {
-      width: 100%;
-      padding: 12px 14px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      background: rgba(5, 8, 22, 0.9);
-      color: #f5f5f5;
-      font-size: 14px;
-      outline: none;
-    }
-
-    input::placeholder {
-      color: #7a7a7a;
-    }
-
-    button {
-      margin-top: 12px;
-      width: 100%;
-      padding: 12px 16px;
-      border-radius: 999px;
-      border: none;
-      font-size: 15px;
-      font-weight: 600;
-      cursor: pointer;
-      background: linear-gradient(135deg, #6366f1, #ec4899);
-      color: #ffffff;
-    }
-
-    .note {
-      margin-top: 10px;
-      font-size: 12px;
-      color: #888888;
-    }
-
-    .footer {
-      margin-top: 32px;
-      font-size: 12px;
-      color: #666666;
-    }
-  </style>
-</head>
-<body>
-  <main class="container">
-    <div class="pill">
-      <span class="pill-dot"></span>
-      Daily audio, no scrolling
-    </div>
-
-    <h1>Spoquen</h1>
-    <h2>A daily 20 second voice challenge.</h2>
-
-    <p>
-      One global prompt. One take. One post per day.  
-      A human audio feed that resets every morning.
-    </p>
-
-    <p>
-      Spoquen is in early build. Leave your email if you want first access when the app is ready.
-    </p>
-
-    <form>
-      <label for="email">Get notified at launch</label>
-      <input id="email" type="email" placeholder="you@example.com">
-      <button type="button">Notify me</button>
-      <div class="note">Form is a placeholder for now. MVP comes first.</div>
-    </form>
-
-    <div class="footer">
-      © <span id="year"></span> Spoquen
-    </div>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </main>
-</body>
-</html>
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px 0;
