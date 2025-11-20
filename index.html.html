@@ -1,1 +1,150 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c1{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left;height:11pt}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c2{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c3{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c3 doc-content"><p class="c2"><span class="c0">&lt;!DOCTYPE html&gt;</span></p><p class="c2"><span class="c0">&lt;html&gt;</span></p><p class="c2"><span class="c0">&lt;head&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;title&gt;Spoquen&lt;/title&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;style&gt;</span></p><p class="c2"><span class="c0">&nbsp; &nbsp; body { font-family: sans-serif; padding: 40px; max-width: 500px; margin: 0 auto; }</span></p><p class="c2"><span class="c0">&nbsp; &nbsp; h1 { font-size: 32px; }</span></p><p class="c2"><span class="c0">&nbsp; &nbsp; p { font-size: 18px; line-height: 1.5; margin-top: 20px; }</span></p><p class="c2"><span class="c0">&nbsp; &nbsp; input, button { padding: 12px; font-size: 16px; width: 100%; margin-top: 20px; }</span></p><p class="c2"><span class="c0">&nbsp; &lt;/style&gt;</span></p><p class="c2"><span class="c0">&lt;/head&gt;</span></p><p class="c2"><span class="c0">&lt;body&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;h1&gt;Spoquen&lt;/h1&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;p&gt;A daily 20-second voice challenge. One global prompt. One take. One post per day.&lt;/p&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;p&gt;Launching soon.&lt;/p&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;input placeholder=&quot;Email address&quot; /&gt;</span></p><p class="c2"><span class="c0">&nbsp; &lt;button&gt;Notify Me&lt;/button&gt;</span></p><p class="c2"><span class="c0">&lt;/body&gt;</span></p><p class="c2"><span class="c0">&lt;/html&gt;</span></p><p class="c1"><span class="c0"></span></p><p class="c1"><span class="c0"></span></p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spoquen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #050816;
+      color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 520px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px 0;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0 0 24px 0;
+      color: #b0b0b0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0 0 20px 0;
+      color: #dcdcdc;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.04);
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+
+    .pill-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #22c55e;
+      margin-right: 6px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: #bbbbbb;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      background: rgba(5, 8, 22, 0.9);
+      color: #f5f5f5;
+      font-size: 14px;
+      outline: none;
+    }
+
+    input::placeholder {
+      color: #7a7a7a;
+    }
+
+    button {
+      margin-top: 12px;
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: 999px;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      background: linear-gradient(135deg, #6366f1, #ec4899);
+      color: #ffffff;
+    }
+
+    .note {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #888888;
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="pill">
+      <span class="pill-dot"></span>
+      Daily audio, no scrolling
+    </div>
+
+    <h1>Spoquen</h1>
+    <h2>A daily 20 second voice challenge.</h2>
+
+    <p>
+      One global prompt. One take. One post per day.  
+      A human audio feed that resets every morning.
+    </p>
+
+    <p>
+      Spoquen is in early build. Leave your email if you want first access when the app is ready.
+    </p>
+
+    <form>
+      <label for="email">Get notified at launch</label>
+      <input id="email" type="email" placeholder="you@example.com">
+      <button type="button">Notify me</button>
+      <div class="note">Form is a placeholder for now. MVP comes first.</div>
+    </form>
+
+    <div class="footer">
+      © <span id="year"></span> Spoquen
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </main>
+</body>
+</html>
