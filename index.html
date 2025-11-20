@@ -12,20 +12,21 @@
 
     body {
       margin: 0;
-      padding: 40px 24px;
+      padding: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: #050816;
       color: #f5f5f5;
       display: flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       min-height: 100vh;
+      text-align: center;
+      padding: 40px 24px;
     }
 
     .container {
-      max-width: 520px;
+      max-width: 540px;
       width: 100%;
-      margin-top: 40px;
     }
 
     .pill {
@@ -35,7 +36,7 @@
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.05);
       font-size: 13px;
-      margin-bottom: 20px;
+      margin-bottom: 28px;
     }
 
     .pill-dot {
@@ -47,50 +48,52 @@
     }
 
     h1 {
-      font-size: 44px;
-      margin: 0 0 20px 0;
-      line-height: 1.2;
+      font-size: 56px;
+      margin: 0 0 32px 0;
+      line-height: 1.15;
+      text-shadow: 0 0 18px rgba(255, 255, 255, 0.11);
     }
 
     p {
-      font-size: 18px;
-      line-height: 1.6;
-      margin: 20px 0;
+      font-size: 19px;
+      line-height: 1.75;
+      margin: 22px 0;
       color: #dcdcdc;
     }
 
     .subtle {
       font-size: 15px;
       color: #9ca3af;
-      margin-top: 10px;
+      margin-top: 14px;
     }
 
     .email-box {
-      margin-top: 32px;
-      padding: 20px;
+      margin-top: 40px;
+      padding: 24px;
       border-radius: 12px;
       background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      text-align: center;
     }
 
     .email-box p {
-      margin: 0 0 12px 0;
+      margin: 0 0 14px 0;
     }
 
     .email-link {
       display: inline-block;
-      margin-top: 8px;
-      padding: 12px 16px;
+      margin-top: 10px;
+      padding: 12px 20px;
       background: linear-gradient(135deg, #6366f1, #ec4899);
       color: white;
       font-weight: 600;
       border-radius: 999px;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 16px;
     }
 
     .footer {
-      margin-top: 40px;
+      margin-top: 44px;
       font-size: 12px;
       color: #808080;
     }
@@ -106,10 +109,10 @@
 
     <h1>Spoquen</h1>
 
-    <p>The audio-only social feed.</p>
+    <p style="margin-top: 0;">The audio-only social feed.</p>
 
     <p>
-      One prompt. One 20-second post.  
+      One prompt. One 20-second post.<br>
       Everything resets at sunrise.
     </p>
 
@@ -119,7 +122,7 @@
 
     <div class="email-box">
       <p><strong>Want early access?</strong></p>
-      <p>Email Jonathan and you will be added to the early access list:</p>
+      <p>Email Jonathan to join the early access list:</p>
 
       <a class="email-link" href="mailto:finertyjon@gmail.com">
         Email finertyjon@gmail.com
